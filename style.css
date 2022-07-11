@@ -1,0 +1,17 @@
+body {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.container {
+  display: flex;
+}
+.image_container {
+  display: flex;
+}
+#left_image {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: 0rem;
+  padding: 0rem;
+}
