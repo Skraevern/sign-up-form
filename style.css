@@ -8,6 +8,29 @@ body {
 .container {
   display: flex;
 }
+.side_logo {
+  position: relative;
+  background-image: url(./images/red_wood.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 40%;
+}
+
+.side_bar {
+  position: absolute;
+  top: 3rem;
+  width: 100%;
+  background-color: #0000005d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side_bar img {
+  height: 1px;
+}
 .image_container {
   display: flex;
 }
