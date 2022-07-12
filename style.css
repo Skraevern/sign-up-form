@@ -16,6 +16,20 @@ body {
   max-height: 100vh;
   margin: 0rem;
   padding: 0rem;
+  position: relative;
+}
+#logo_image {
+  max-width: 100%;
+  height: 8rem;
+  margin-left: 8rem;
+}
+.logo_image_container {
+  background-color: gray;
+  position: relative;
+  height: 5rem;
+  top: -30px;
+  position: relative;
+  left: 30px;
 }
 
 .right_container {
