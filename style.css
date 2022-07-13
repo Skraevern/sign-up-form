@@ -29,10 +29,15 @@ body {
 }
 
 .side_bar img {
-  height: 1px;
+  height: 9rem;
 }
 .image_container {
   display: flex;
+}
+.logo_font {
+  font-family: "Edu QLD Beginner", cursive;
+  color: white;
+  font-size: 40px;
 }
 #left_image {
   max-width: 100%;
