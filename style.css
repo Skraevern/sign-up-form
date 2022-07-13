@@ -124,3 +124,6 @@ button:active {
 input:valid {
   border: 2px solid green;
 }
+#password_validation_text {
+  color: red;
+}
