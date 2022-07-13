@@ -127,3 +127,6 @@ input:valid {
 #password_validation_text {
   color: red;
 }
+#user_email:not(:placeholder-shown):invalid {
+  border: 2px solid red;
+}
