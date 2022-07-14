@@ -31,31 +31,23 @@ body {
 .side_bar img {
   height: 9rem;
 }
-.image_container {
-  display: flex;
-}
 .logo_font {
   font-family: "Edu QLD Beginner", cursive;
   color: white;
   font-size: 40px;
 }
-#left_image {
-  max-width: 100%;
-  max-height: 100vh;
-  margin: 0rem;
-  padding: 0rem;
-}
-
-.right_container {
+.right_container,
+.text_container,
+.fieldset_container {
   display: flex;
   flex-direction: column;
+}
+.right_container {
   flex-shrink: 1;
   flex-grow: 1;
   align-items: center;
 }
 .text_container {
-  display: flex;
-  flex-direction: column;
   background-color: rgb(240, 240, 240);
   max-width: fit-content;
   width: 100%;
@@ -64,8 +56,6 @@ body {
   padding-bottom: 2rem;
 }
 .fieldset_container {
-  display: flex;
-  flex-direction: column;
   max-width: fit-content;
   width: 100%;
   font-size: 14px;
@@ -88,12 +78,14 @@ input {
   height: 1.5rem;
   border-radius: 0.3rem;
 }
+.input_pair,
 .input_row {
   display: flex;
+}
+.input_row {
   justify-content: space-around;
 }
 .input_pair {
-  display: flex;
   flex-direction: column;
   padding: 0.5rem 0.3rem 0.5rem 0.3rem;
 }
